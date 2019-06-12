@@ -1,0 +1,63 @@
+#container{
+    padding-bottom: 0;
+}
+#gamePanel {
+    border-radius: 10px 0 0 0;
+    margin-top: 10%;
+    margin-left: 35%;
+    box-shadow: 0 0 20px black;
+    width: 800px;
+    height: 600px;
+    border-radius: 10px 10px 0 0 ;
+}
+#gamePanel h1 {
+    border-radius: 10px 10px 0 0 ;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    font-size: 40px;
+    padding: 0 0 15px 0;
+    color: white;
+}
+
+#gamePanel h3 {
+    font-size: 30px;
+    margin-left: 10%;
+
+}
+
+#gamePanel p {
+    font-size: 30px;
+    margin-left: 10%;
+}
+#insPan {
+    margin-left: 50%;
+    height: 100%;
+    width: 100%;
+
+}
+h3 {
+    margin-left: 50%;
+}
+#scoreP{
+    margin-left: 50%;
+
+}
+#msgDisplay {
+    margin-left: 50%;
+}
+#rollBtn {
+    margin-top: 50px;
+    margin-left: 40%;
+    align-items: center;
+    font-size: 20px;
+    height: 10%;
+    width: 20%;
+}
+#rollBtn:hover {
+    box-shadow: 0 0 20px black;
+}
+
+#diceImg {
+    margin-top: 10%;
+    margin-left: 40%;
+}
