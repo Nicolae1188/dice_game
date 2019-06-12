@@ -29,12 +29,12 @@ function rollDice(){
     img.src = diceImgs[randRoll];
     
     //Condition roll 1 = gameover 21 = win
-    if (score == 1) {
-        document.getElementById('msgDisplay').innerHTML = "Game Over"
+       if (score == 1) {
+        alert ("Game Over");
         window.location.reload();
         score = 0;
     } else if (score > 22) {
-        document.getElementById('msgDisplay').innerHTML = "You've won"
+        alert  ("You've won");
         window.location.reload();
         score = 0;
     }
