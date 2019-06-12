@@ -32,8 +32,10 @@ function rollDice(){
     if (score == 1) {
         document.getElementById('msgDisplay').innerHTML = "Game Over"
         window.location.reload();
+        score = 0;
     } else if (score > 22) {
         document.getElementById('msgDisplay').innerHTML = "You've won"
         window.location.reload();
+        score = 0;
     }
 }
