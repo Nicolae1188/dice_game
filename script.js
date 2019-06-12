@@ -31,7 +31,9 @@ function rollDice(){
     //Condition roll 1 = gameover 21 = win
     if (score == 1) {
         document.getElementById('msgDisplay').innerHTML = "Game Over"
+        window.location.reload();
     } else if (score > 22) {
         document.getElementById('msgDisplay').innerHTML = "You've won"
+        window.location.reload();
     }
 }
