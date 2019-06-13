@@ -1,4 +1,4 @@
-#container{
+.container{
     padding-bottom: 0;
 }
 #gamePanel {
@@ -6,7 +6,7 @@
     margin-top: 10%;
     margin-left: 35%;
     box-shadow: 0 0 20px black;
-    width: 800px;
+    width: 600px;
     height: 600px;
     border-radius: 10px 10px 0 0 ;
 }
@@ -29,39 +29,47 @@
     font-size: 30px;
     margin-left: 10%;
 }
-#insPan {
-    margin-left: 50%;
+#inPan {
+    margin-left: 30%;
     height: 100%;
     width: 100%;
 
 }
+#rules {
+    font-size: 5px;
+}
+
+
 h3 {
     margin-left: 50%;
 }
-#scoreP{
-    margin-left: 50%;
 
-}
 #msgDisplay {
     margin-left: 50%;
 }
 #rollBtn {
-    margin-top: 50px;
+    margin-top: 17px;
     margin-left: 40%;
     align-items: center;
     font-size: 20px;
-    height: 10%;
+    height: 30px;
     width: 20%;
 }
 #rollBtn:hover {
-    box-shadow: 0 0 20px black;
+    box-shadow: 0 0 20px white;
 }
 
 #diceImg {
     margin-top: 10%;
-    margin-left: 40%;
+    margin-left: 10%;
 }
-
+#btm {
+    margin-top: -151px;
+    background-color: black;
+    width: 100%;
+    height: 10%;
+    align-content: center;
+}
 @media (min-width: 500px) and (max-width: 600px) {
     #gamePanel {
         width: 90%;
@@ -74,8 +82,17 @@ h3 {
         margin-left: 0;
         width: 100%;
     }
-    #rollBtn {
-        width: 70%;
+    #rollBtn { 
+        width: 40%;
+    }
+    #btm {
+        width: 100%;
+        
+    }
+    #diceImg{
+        height: 150px;
+        width: 150px;
+        margin-left: -10px;
     }
     
 }
