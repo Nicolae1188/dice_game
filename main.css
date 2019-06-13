@@ -61,3 +61,21 @@ h3 {
     margin-top: 10%;
     margin-left: 40%;
 }
+
+@media (min-width: 500px) and (max-width: 600px) {
+    #gamePanel {
+        width: 90%;
+    }
+    .container {
+        margin-left: -5%;
+        width: 70%;
+    }
+    #gamePanel h1{
+        margin-left: 0;
+        width: 100%;
+    }
+    #rollBtn {
+        width: 70%;
+    }
+    
+}
