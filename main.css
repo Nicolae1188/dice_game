@@ -70,7 +70,7 @@ h3 {
     height: 10%;
     align-content: center;
 }
-@media @media only screen and (max-width: 767px) {
+@media @media only screen and (max-width: 750px) (max-height: 1334 {
     #gamePanel {
         width: 90%;
     }
