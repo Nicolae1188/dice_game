@@ -99,7 +99,7 @@ h3 {
 
 @media only screen and (max-height: 1335px) {
     #gamePanel {
-        width: 90%;
+        width: 50%;
     }
     .container {
         margin-left: -5%;
