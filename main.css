@@ -71,6 +71,10 @@ h3 {
     align-content: center;
 }
 @media (min-width: 500px) and (max-width: 600px) {
+    body {
+    width: 750px;
+    height: 1334px;
+    }
     #gamePanel {
         width: 90%;
     }
