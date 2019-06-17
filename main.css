@@ -97,7 +97,7 @@ h3 {
     
 }
 
-@media only screen and (max-height: 1200px) {
+@media only screen and (max-height: 800px) {
     #gamePanel {
         width: 90%;
     }
